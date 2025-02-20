@@ -1,8 +1,12 @@
-import React from 'react'
+import { LoadingScreen } from "./components/LoadingScreen"
+import Home from './components/sections/Home'
 
 const App = () => {
   return (
-    <div>App</div>
+    <div>
+      <LoadingScreen />
+      <Home />
+    </div>
   )
 }
 
