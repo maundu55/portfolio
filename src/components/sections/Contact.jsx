@@ -1,7 +1,26 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { RevealOnScroll } from '../RevealOnScroll'
+import emailjs from 'emailjs-com'
 
 const Contact = () => {
+    const [formData, setFormData] = useState({
+        name:'',
+        email:'',
+        message:''
+    })
+
+    const SERVICE_ID ='service_bd819in'
+    const TEMPLATE_ID='template_tmgohk5'
+    const PUBLIC_KEY ='QmZDMZ_UZPZmtKz7X'
+
+    const handleSubmit =(e)=>{
+        emailjs.preventDefault()
+
+        emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, e.target, PUBLIC_KEY).then((result)=>{
+            alert('Message Sent!')
+        }).catch(()=> alert('Oops! Something went wrong!'))
+    }
+
   return (
    <section id='contact' className='min-h-screen flex items-center justify-center py-20'>
       <RevealOnScroll>
