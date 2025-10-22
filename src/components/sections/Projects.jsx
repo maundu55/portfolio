@@ -1,6 +1,6 @@
 import { RevealOnScroll } from "../RevealOnScroll";
 
- const Projects = () => {
+const Projects = () => {
   return (
     <section
       id="projects"
@@ -9,15 +9,14 @@ import { RevealOnScroll } from "../RevealOnScroll";
       <RevealOnScroll>
         <div className="max-w-5xl mx-auto px-4">
           <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center">
-            {" "}
             Featured Projects
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
-              <h3 className="text-xl font-bold mb-2"> Cloud Platform</h3>
+              <h3 className="text-xl font-bold mb-2">Cloud Platform</h3>
               <p className="text-gray-400 mb-4">
-                Scalable cloud infrastructure management with real-time
-                monitoring and automated scaling.
+                Scalable cloud infrastructure management with real-time monitoring
+                and automated scaling.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
                 {["React", "Node.js", "AWS", "Docker"].map((tech, key) => (
@@ -34,7 +33,9 @@ import { RevealOnScroll } from "../RevealOnScroll";
 
               <div className="flex justify-between items-center">
                 <a
-                  href="#"
+                  href="https://your-cloud-platform.example.com" /* replace with your URL */
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="text-blue-400 hover:text-blue-300 transition-colors my-4"
                 >
                   View Project →
@@ -72,7 +73,9 @@ import { RevealOnScroll } from "../RevealOnScroll";
               </div>
               <div className="flex justify-between items-center">
                 <a
-                  href="#"
+                  href="https://your-ai-dashboard.example.com" /* replace with your URL */
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="text-blue-400 hover:text-blue-300 transition-colors my-4"
                 >
                   View Project →
@@ -113,7 +116,9 @@ import { RevealOnScroll } from "../RevealOnScroll";
               </div>
               <div className="flex justify-between items-center">
                 <a
-                  href="#"
+                  href="https://your-ecommerce.example.com" /* replace with your URL */
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="text-blue-400 hover:text-blue-300 transition-colors my-4"
                 >
                   View Project →
@@ -150,9 +155,11 @@ import { RevealOnScroll } from "../RevealOnScroll";
                   </span>
                 ))}
               </div>
-              <div className="flex justify-between items-center ">
+              <div className="flex justify-between items-center">
                 <a
-                  href="#"
+                  href="https://your-chat-app.example.com" /* replace with your URL */
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="text-blue-400 hover:text-blue-300 transition-colors my-4"
                 >
                   View Project →
@@ -166,4 +173,4 @@ import { RevealOnScroll } from "../RevealOnScroll";
   );
 };
 
-export default Projects
+export default Projects;
