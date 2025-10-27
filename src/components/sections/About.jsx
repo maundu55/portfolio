@@ -2,8 +2,8 @@ import { RevealOnScroll } from "../RevealOnScroll";
 
 const About = () => {
 
-    const frontendSkills =['React', 'TypeScript', 'TailwindCSS', 'React Native'];
-    const backendSkills =['Next JS', 'Python', 'Graphql'];
+    const frontendSkills =['React', 'TypeScript', 'TailwindCSS', 'JavaScript'];
+    const backendSkills =['Next JS', 'Python'];
 
   return (
     <section id='about' className='min-h-screen flex items-center justify-center py-20'>
@@ -45,23 +45,24 @@ const About = () => {
                     <h3 className='text-xl font-bold mb-4'>Education</h3>
                     <ul className='list-disc list-inside text-gray-300 spae-y-2'>
                         <li>
-                            <strong>BSc. in Computer Science</strong> -XYZ University (2016-2020)
-                        </li>
+                            <strong>  BSc. in Geography</strong> - Egerton University (2013-2017)
+                        </li><br />
                         <li>
-                            Relevant Coursework: DSA, web development
+                            Relevant Coursework: Web development, Python Pogramming Certificate
                         </li>
                     </ul>
                 </div>
                 <div className='p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all'>
                     <h3 className='text-xl font-bold mb-4'>Work Experience</h3>
                     <div className='space-y-4 text-gray-300'>
+                    
                         <div>
-                            <h4>Software Engineer at ABC Corp (2020- Present)</h4>
-                            <p>Developed and maintained microservices for cloud-based applications</p>
-                        </div>
-                        <div>
-                            <h4>Intern  at DEF Startups (2019)</h4>
-                            <p>Assisted in building front-end components and integration TEST APIs</p>
+                            <strong><h4>Frontend Developer Intern at RisecomBiz (2025)</h4></strong><br />
+
+                            <p> ●	Assisted in coding UI components using React.js and contributed to product improvements. </p><br />
+                            <p>
+                                ●	Gained practical experience with Git & GitHub through pull requests and team collaboration
+                            </p>
                         </div>
                     </div>
                 </div>
