@@ -48,7 +48,7 @@ const About = () => {
                             <strong>  BSc. in Geography</strong> - Egerton University (2013-2017)
                         </li><br />
                         <li>
-                            Relevant Coursework: Web development, Python Pogramming Certificate
+                            Relevant Coursework: Web development, Python Pogramming Certificate from AFRALTI.
                         </li>
                     </ul>
                 </div>
@@ -57,7 +57,7 @@ const About = () => {
                     <div className='space-y-4 text-gray-300'>
                     
                         <div>
-                            <strong><h4>Frontend Developer Intern at RisecomBiz (2025)</h4></strong><br />
+                            <strong><h4>Frontend Developer Intern at RisecomBiz (March - May 2025)</h4></strong><br />
 
                             <p> ●	Assisted in coding UI components using React.js and contributed to product improvements. </p><br />
                             <p>

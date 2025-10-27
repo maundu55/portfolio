@@ -49,12 +49,12 @@ const Projects = () => {
               transition-all
             "
             >
-              <h3 className="text-xl font-bold mb-2">Recipe Finder Website</h3>
+              <h3 className="text-xl font-bold mb-2">Weather App</h3>
               <p className="text-gray-400 mb-4">
-                Used a public API to fetch and display recipes, implemented search and filtering features.
+               A responsive web app using OpenWeatherMap API to display real-time weather. It features geolocation, dynamic UI, and mobile-first design. Deployed on GitHub Pages.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
-                {["React.js", "Tailwind CSS"].map((tech, key) => (
+                {[ "HTML","CSS", "JavaScript"].map((tech, key) => (
                   <span
                     key={key}
                     className="
@@ -71,7 +71,7 @@ const Projects = () => {
               </div>
               <div className="flex justify-between items-center">
                 <a
-                  href="https://recipe-rosy-phi.vercel.app/" /* replace with your URL */
+                  href="https://maundu55.github.io/Weather-App/" /* replace with your URL */
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-blue-400 hover:text-blue-300 transition-colors my-4"
